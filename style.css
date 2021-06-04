@@ -1,0 +1,41 @@
+body{
+   width:100%;
+  background-color:#8080ff;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+#container{
+  background-color:white;
+ }
+#title{
+  width:1000px;
+  height:50px;
+  position:relative;
+  top:40px;
+  font-size:40px;
+  text-align:center;
+}
+#graph{
+ 
+}
+.svgColor{
+  background-color:white;
+}
+.bar{
+    fill:#FDDC22;
+}
+.bar:hover{
+  fill:white;
+}
+#tooltip{
+  visibility:hidden;
+  opacity:0;
+  background-color:#ccccff;
+  width:150px;
+  height:70px;
+  color:black;
+  position:absolute;
+  text-align:center;
+  line-height: 1.4;
+}
